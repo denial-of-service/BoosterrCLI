@@ -1,6 +1,6 @@
 # Boosterr
-Boosterr is a Custom Formats manager that integrates with both Radarr and Sonarr.
-It consists of the largest known database of Custom Formats / Release Profile Restrictions (900+).
+Boosterr is a Custom Formats manager that integrates with both [Radarr](https://github.com/Radarr/Radarr) and [Sonarr](https://github.com/Sonarr/Sonarr).
+It consists of the largest known  [database of Custom Formats / Release Profile Restrictions](https://github.com/denial-of-service/Boosterr/raw/refs/heads/master/boosterr.xlsx) (900+).
 It also includes a console program that automatically syncs the desired Custom Formats with your Radarr and Sonarr instances.
 
 ## Prerequisites
