@@ -1,7 +1,7 @@
 ﻿using System.Collections.Frozen;
 using System.Collections.Immutable;
 
-namespace Boosterr;
+namespace BoosterrCLI;
 
 public static class Program
 {

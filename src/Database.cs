@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 using ClosedXML.Excel;
 
-namespace Boosterr;
+namespace BoosterrCLI;
 
 public static class Database
 {

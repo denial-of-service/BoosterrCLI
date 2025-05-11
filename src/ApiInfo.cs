@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace Boosterr;
+namespace BoosterrCLI;
 
 public record ApiInfo(string Current, string[] Deprecated)
 {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Immutable;
 using System.Text.Json;
 
-namespace Boosterr;
+namespace BoosterrCLI;
 
 public record CustomFormat
 {

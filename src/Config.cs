@@ -3,7 +3,7 @@ using YamlDotNet.Core;
 using YamlDotNet.Core.Events;
 using YamlDotNet.Serialization;
 
-namespace Boosterr;
+namespace BoosterrCLI;
 
 public static class Config
 {

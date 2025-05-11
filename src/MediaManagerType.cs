@@ -1,4 +1,4 @@
-﻿namespace Boosterr;
+﻿namespace BoosterrCLI;
 
 public enum MediaManagerType
 {

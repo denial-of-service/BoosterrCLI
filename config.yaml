@@ -1,33 +1,33 @@
-﻿# List of Media Manager Instances that Boosterr should manage
+﻿# List of Media Manager Instances that BoosterrCLI should manage
 #
 # Name of the Media Manager Instance
 - Name: 'Movies'
   # Type of Media Manager, either 'Radarr' or 'Sonarr'
   Type: 'Radarr'
-  # Whether the Media Manager Instance should be updated by Boosterr
+  # Whether the Media Manager Instance should be updated by BoosterrCLI
   IsEnabled: true
-  # Whether to overwrite Custom Formats that were not created by Boosterr
+  # Whether to overwrite Custom Formats that were not created by BoosterrCLI
   ShouldOverwriteNonBoosterrCustomFormats: true
-  # Whether to delete Custom Formats that were not created by Boosterr
+  # Whether to delete Custom Formats that were not created by BoosterrCLI
   ShouldDeleteNonBoosterrCustomFormats: true
   # URL used to connect to Radarr/Sonarr server, including http(s)://, port, and url base if required
   Url: 'http://localhost:7878'
-  # The API Key of Radarr/Sonarr, can be found in Settings -> General -> Security
+  # The API Key of Radarr/Sonarr can be found in Settings -> General -> Security
   ApiKey: 'boosterr'
 
 # Name of the Media Manager Instance
 - Name: 'Shows'
   # Type of Media Manager, either 'Radarr' or 'Sonarr'
   Type: 'Sonarr'
-  # Whether the Media Manager Instance should be updated by Boosterr
+  # Whether the Media Manager Instance should be updated by BoosterrCLI
   IsEnabled: true
-  # Whether to overwrite Custom Formats that were not created by Boosterr
+  # Whether to overwrite Custom Formats that were not created by BoosterrCLI
   ShouldOverwriteNonBoosterrCustomFormats: true
-  # Whether to delete Custom Formats that were not created by Boosterr
+  # Whether to delete Custom Formats that were not created by BoosterrCLI
   ShouldDeleteNonBoosterrCustomFormats: true
   # URL used to connect to Radarr/Sonarr server, including http(s)://, port, and url base if required
   Url: 'http://localhost:8989'
-  # The API Key of Radarr/Sonarr, can be found in Settings -> General -> Security
+  # The API Key of Radarr/Sonarr can be found in Settings -> General -> Security
   ApiKey: 'boosterr'
 
 # You can add more Media Manager Instances here. Keep the same structure as above.

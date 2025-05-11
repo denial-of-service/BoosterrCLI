@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Net.Http.Headers;
 using System.Text;
 
-namespace Boosterr;
+namespace BoosterrCLI;
 
 public record MediaManagerInstanceApiAsync
 {

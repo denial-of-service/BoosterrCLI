@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boosterr", "Boosterr.csproj", "{878B7E5F-1042-4CF5-9EDD-0E765BC3CEC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoosterrCLI", "BoosterrCLI.csproj", "{878B7E5F-1042-4CF5-9EDD-0E765BC3CEC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
