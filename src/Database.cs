@@ -12,8 +12,8 @@ public static class Database
 
     // Column headers
     private const string SyncHeader = "Sync";
-    private const string NameHeader = "Name";
     private const string PrettyNameHeader = "Pretty Name";
+    private const string NameHeader = "Name";
     private const string RegexHeader = "Regex";
     private const string TestsMustMatchHeader = "Must Match";
     private const string TestsMustNotMatchHeader = "Must Not Match";
@@ -21,7 +21,7 @@ public static class Database
 
     private static readonly string[] TermWorksheetHeaders =
     [
-        SyncHeader, NameHeader, PrettyNameHeader, RegexHeader, TestsMustMatchHeader,
+        SyncHeader, PrettyNameHeader, NameHeader, RegexHeader, TestsMustMatchHeader,
         TestsMustNotMatchHeader, WebsiteHeader
     ];
 
@@ -66,7 +66,7 @@ public static class Database
         foreach (string columnName in TermWorksheetHeaders)
         {
             // Column index is 1-based
-            
+
             foreach (IXLCell? cell in headerRow.CellsUsed())
             {
                 string cellValue = cell.Value.ToString();
